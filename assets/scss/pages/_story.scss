@@ -1,14 +1,15 @@
-header{
+.story-banner{
     background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     padding: 152px 0;
     text-align: center;
+    color: $neutral-0;
 }
 
 @media (max-width: 767px){
-    header{
+    .story-banner{
         padding: 87px 0;
         background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/hero-sm.png?raw=true') center/cover no-repeat;
     }

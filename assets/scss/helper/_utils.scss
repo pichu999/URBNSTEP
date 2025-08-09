@@ -4,6 +4,12 @@
 	text-align: center;
 }
 
+.display-1 {
+	font-size: 64px;
+	line-height: 1.2;
+	font-weight: 700;
+}
+
 .display-2 {
 	font-size: 48px;
 	line-height: 1.2;
@@ -71,6 +77,9 @@
 }
 
 @media (max-width: 767px){
+	.display-2-md {
+		font-size: 48px;
+	}
 	.h2-md{
 		font-size: 32px;
 	}
@@ -291,6 +300,10 @@
 
 .p-12 {
 	padding: 12px;
+}
+
+.p-32 {
+	padding: 32px;
 }
 
 .pb-4 {

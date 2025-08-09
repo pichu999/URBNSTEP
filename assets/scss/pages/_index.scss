@@ -1,3 +1,43 @@
+.nav-products {
+  width: 50%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: $primary-200;
+}
+
+.nav-story {
+  width: 50%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: $primary-100;
+}
+
+
+.index-banner {
+  background-image: url(/assets/images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  .index-banner-text {
+    color: $neutral-0;
+    padding-top: 298px;
+    padding-bottom: 298px;
+    padding-left: 200px;
+    .btn {
+      background-color: $primary-300;
+    }
+  }
+}
+
+@media(max-width: 767px) {
+  .index-banner {
+    background-image: url(/assets/images/banner-sm.png);
+    .index-banner-text {
+      padding: 155px 24px;
+    }
+  }
+}
+
 .product {
   position: relative;
   .product-text {
