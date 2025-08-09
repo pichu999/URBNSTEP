@@ -1,3 +1,119 @@
-.index-title {
-  font-size: 100px;
+.product {
+  position: relative;
+  .product-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    padding: 8px 12px;
+    background-color: $primary-100;
+    color: $primary-400;
+    font-weight: 500;
+    }
+}
+
+@media(max-width: 767px){
+  .product-md-row {
+    margin: 0 -8px;
+  }
+  .product-md-col {
+    min-width: 316px;
+    padding: 0 8px;
+  }
+}
+
+.banner {
+  text-align: center;
+  background-image: url(/assets/images/banner-co-branded.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+  position: relative;
+  .star-img {
+    width: 48px;
+    position: absolute;
+    top: 68px;
+    left: calc(50% - 397px);
+  }
+  .sparkle-img {
+    width: 76px;
+    position: absolute;
+    top: 274px;
+    right: calc(50% - 357px);
+  }
+}
+
+@media(max-width: 767px){
+  .banner {
+    padding: 64px 0;
+    background-image: url(/assets/images/banner-co-branded-sm.png);
+    overflow: hidden;
+    .btn {
+      padding: 12px 24px;
+    }
+    .star-img {
+      top: 32px;
+      left: -20px;
+    }
+    .sparkle-img {
+      top: 282px;
+      right: -28px;
+    }
+  }
+}
+
+.category {
+  position: relative;
+  .category-text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(#000000, 0.4);
+    color: $neutral-0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+}
+
+.inspiration-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -4px;
+}
+
+.inspiration-col-4 {
+  width: calc(100% / 12 * 4);
+  padding: 4px;
+}
+
+.inspiration-col-6 {
+  width: calc(100% / 12 * 6);
+  padding: 4px;
+}
+
+.inspiration-col-12 {
+  width: 100%;
+  padding: 4px;
+}
+
+@media(max-width: 767px) {
+  .inspiration-row {
+    flex-wrap: nowrap;
+    margin: 0 -8px;
+    img {
+      min-width: 300px;
+    }
+  }
+  .inspiration-col-4,
+  .inspiration-col-6,
+  .inspiration-col-12 {
+    width: unset;
+    padding: 0 8px;
+  }
 }
