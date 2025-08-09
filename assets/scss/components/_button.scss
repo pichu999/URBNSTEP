@@ -1,0 +1,33 @@
+.btn {
+	border-radius: 4px;
+	padding: 12px 24px;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 500;
+	cursor: pointer;
+	border: none;
+	background-color: transparent;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  pointer-events: none; /* 完全忽略滑鼠事件 */
+}
+
+@media (max-width: 576px){
+	.btn{
+		padding: 8px 16px;
+	}
+	.btn-sm{
+		padding: 12px;
+	}
+}
+
+.btn-dark {
+	background-color: $neutral-900;
+	color: $neutral-0;
+}
+
+.btn-light {
+	border: 1px solid $neutral-900;
+}

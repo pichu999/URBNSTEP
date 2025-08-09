@@ -1,0 +1,56 @@
+header{
+    background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 152px 0;
+    text-align: center;
+}
+
+@media (max-width: 767px){
+    header{
+        padding: 87px 0;
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/hero-sm.png?raw=true') center/cover no-repeat;
+    }
+}
+
+.quote{
+    border-radius: 16px;
+    text-align: center;
+}
+
+@media (max-width: 767px){
+    .quote{
+        text-align: left;
+    }
+}
+
+.history{
+    list-style: disc;
+    padding-left: 1.5rem;
+}
+
+.history-item{
+    padding-left: 8px;
+    margin-left: 8px;
+    border-left: 1px solid $neutral-900;
+}
+
+.concept-item{
+    padding-left: 12px;
+    border-left: 3px solid $neutral-300;
+}
+
+.story-item{
+    color: $primary-400;
+    text-underline-offset: 8px;
+    text-decoration: underline;
+}
+
+.story-item:hover {
+    color: $primary-500;
+}
+
+.bi{
+    vertical-align: bottom;
+}

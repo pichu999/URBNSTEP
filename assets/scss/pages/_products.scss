@@ -1,0 +1,19 @@
+.cagetory .active {
+    color: $primary-400;
+}
+
+.page-item .btn {
+    padding: 10px;
+    font-weight: 400;
+}
+
+.pages .btn {
+    padding: 8px 15px;
+    border-radius: 0;
+    font-weight: 400;
+}
+
+.pages .active {
+    background-color: $primary-300;
+    font-weight: 500;
+}
