@@ -25,6 +25,10 @@
     padding-left: 200px;
     .btn {
       background-color: $primary-300;
+      color: $neutral-900;
+    }
+    .btn:hover {
+      color: $primary-500;
     }
   }
 }
@@ -36,6 +40,10 @@
       padding: 155px 24px;
     }
   }
+}
+
+.new-arrival img:hover {
+	opacity: 0.8;
 }
 
 .product {

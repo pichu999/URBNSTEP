@@ -28,6 +28,11 @@
     color: $neutral-600;
     margin-right: 8px;
     font-size: 16px;
+    transition: opacity 0.3s ease;
+}
+
+.product-color:hover {
+    opacity: 0.8;
 }
 
 .size-btn {

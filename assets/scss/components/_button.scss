@@ -28,10 +28,18 @@ button:disabled {
 	color: $neutral-0;
 }
 
+.btn-dark:hover {
+	background-color: $neutral-700;
+}
+
 .btn-light {
 	border: 1px solid $neutral-900;
 }
 
 .btn-buynow {
 	background-color: $primary-300;
+}
+
+.btn-buynow:hover {
+	color: $primary-500;
 }
