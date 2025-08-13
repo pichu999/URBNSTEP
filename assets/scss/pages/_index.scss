@@ -126,6 +126,13 @@
     align-items: center;
     justify-content: center;
     gap: 8px;
+    text-align: center;
+  }
+}
+
+.category:hover {
+  .category-text h4 {
+    color: $primary-300;
   }
 }
 
